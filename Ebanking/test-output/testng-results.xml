@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15089" started-at="2022-06-16T20:21:25 IST" finished-at="2022-06-16T20:21:40 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15089" started-at="2022-06-16T20:21:25 IST" finished-at="2022-06-16T20:21:40 IST">
+      <class name="com.ebanking.master.BranchNg">
+        <test-method status="PASS" signature="Br()[pri:0, instance:com.ebanking.master.BranchNg@687080dc]" name="Br" duration-ms="2921" started-at="2022-06-16T20:21:33 IST" finished-at="2022-06-16T20:21:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Br -->
+      </class> <!-- com.ebanking.master.BranchNg -->
+      <class name="com.ebanking.master.RoleNg">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.ebanking.master.RoleNg@2c039ac6]" name="beforeSuite" is-config="true" duration-ms="9044" started-at="2022-06-16T20:21:16 IST" finished-at="2022-06-16T20:21:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.ebanking.master.RoleNg@2c039ac6]" name="beforeTest" is-config="true" duration-ms="1760" started-at="2022-06-16T20:21:25 IST" finished-at="2022-06-16T20:21:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Rol(java.lang.String,java.lang.String)[pri:0, instance:com.ebanking.master.RoleNg@2c039ac6]" name="Rol" duration-ms="1991" started-at="2022-06-16T20:21:27 IST" data-provider="Rdata" finished-at="2022-06-16T20:21:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amanagerjj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[E]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rol -->
+        <test-method status="PASS" signature="Rol(java.lang.String,java.lang.String)[pri:0, instance:com.ebanking.master.RoleNg@2c039ac6]" name="Rol" duration-ms="2098" started-at="2022-06-16T20:21:29 IST" data-provider="Rdata" finished-at="2022-06-16T20:21:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Managerjj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[E]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rol -->
+        <test-method status="PASS" signature="Rol(java.lang.String,java.lang.String)[pri:0, instance:com.ebanking.master.RoleNg@2c039ac6]" name="Rol" duration-ms="1783" started-at="2022-06-16T20:21:31 IST" data-provider="Rdata" finished-at="2022-06-16T20:21:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gmanagerjj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[E]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rol -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ebanking.master.RoleNg@2c039ac6]" name="afterTest" is-config="true" duration-ms="4439" started-at="2022-06-16T20:21:36 IST" finished-at="2022-06-16T20:21:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.ebanking.master.RoleNg@2c039ac6]" name="afterSuite" is-config="true" duration-ms="4633" started-at="2022-06-16T20:21:40 IST" finished-at="2022-06-16T20:21:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.ebanking.master.RoleNg -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
