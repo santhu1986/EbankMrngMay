@@ -18,8 +18,8 @@ public static void main(String[] args) throws IOException {
 	
 	Library LB=new Library();
 	
-	LB.OpenApp("http://122.175.8.158/ranford2");
-	LB.AdminLgn("Admin","Mq$ystems@");
+	LB.OpenApp("http://192.168.1.4/ranford2");
+	LB.AdminLgn("Admin","Admin");
 	
 	//To Get Test Data File
 	
