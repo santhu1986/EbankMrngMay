@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify Admin Login Functionality",
+        "description": "",
+        "id": "admin-login;verify-admin-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6472150500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Tester Should on Ranford Home Page",
+            "match": {
+              "location": "AdminlgnSD.tester_Should_on_Ranford_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1598445400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Tester should enters UserName Password and login",
+            "match": {
+              "location": "AdminlgnSD.tester_should_enters_UserName_Password_and_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44664100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Tester validates Admin Login Functionality",
+            "match": {
+              "location": "AdminlgnSD.tester_validates_Admin_Login_Functionality()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Admin Login",
+    "description": "",
+    "id": "admin-login",
+    "keyword": "Feature",
+    "uri": "D:/EvngBatch/Ebanking/src/features/AdminLgn.feature"
+  }
+]

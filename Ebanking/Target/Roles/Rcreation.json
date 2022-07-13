@@ -1,0 +1,320 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify Admin Login Functionality",
+        "description": "",
+        "id": "admin-login;verify-admin-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9630598900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Tester Should on Ranford Home Page",
+            "match": {
+              "location": "AdminlgnSD.tester_Should_on_Ranford_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 928297200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Tester should enters UserName Password and login",
+            "match": {
+              "location": "AdminlgnSD.tester_should_enters_UserName_Password_and_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61646000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Tester validates Admin Login Functionality",
+            "match": {
+              "location": "AdminlgnSD.tester_validates_Admin_Login_Functionality()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Admin Login",
+    "description": "",
+    "id": "admin-login",
+    "keyword": "Feature",
+    "uri": "D:/EvngBatch/Ebanking/src/features/AdminLgn.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 18,
+        "name": "Role Creation with Multiple sets of Data",
+        "description": "",
+        "id": "role-creation;role-creation-with-multiple-sets-of-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5323111600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should on RanfordHP",
+            "match": {
+              "location": "RoleCre.user_should_on_RanfordHP()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 984184100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter username password and click on login",
+            "match": {
+              "location": "RoleCre.user_enter_username_password_and_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3247395100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Role button",
+            "match": {
+              "location": "RoleCre.user_click_on_Role_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10325362800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on New Role and enters \"Cashieraxisbk\" and \"E\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cashieraxisbk",
+                  "offset": 35
+                },
+                {
+                  "val": "E",
+                  "offset": 55
+                }
+              ],
+              "location": "RoleCre.user_click_on_New_Role_and_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1108943000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Close the Applocation",
+            "match": {
+              "location": "RoleCre.user_Close_the_Applocation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Role Creation with Multiple sets of Data",
+        "description": "",
+        "id": "role-creation;role-creation-with-multiple-sets-of-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5204369300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should on RanfordHP",
+            "match": {
+              "location": "RoleCre.user_should_on_RanfordHP()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 822735700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter username password and click on login",
+            "match": {
+              "location": "RoleCre.user_enter_username_password_and_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3584618800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Role button",
+            "match": {
+              "location": "RoleCre.user_click_on_Role_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10337770500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on New Role and enters \"TelleraxisBk\" and \"E\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TelleraxisBk",
+                  "offset": 35
+                },
+                {
+                  "val": "E",
+                  "offset": 54
+                }
+              ],
+              "location": "RoleCre.user_click_on_New_Role_and_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1202550300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Close the Applocation",
+            "match": {
+              "location": "RoleCre.user_Close_the_Applocation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Role Creation with Multiple sets of Data",
+        "description": "",
+        "id": "role-creation;role-creation-with-multiple-sets-of-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5133171200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should on RanfordHP",
+            "match": {
+              "location": "RoleCre.user_should_on_RanfordHP()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1395039700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter username password and click on login",
+            "match": {
+              "location": "RoleCre.user_enter_username_password_and_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3547825900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Role button",
+            "match": {
+              "location": "RoleCre.user_click_on_Role_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10350481200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on New Role and enters \"Gmanager\" and \"E\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gmanager",
+                  "offset": 35
+                },
+                {
+                  "val": "E",
+                  "offset": 50
+                }
+              ],
+              "location": "RoleCre.user_click_on_New_Role_and_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1079006300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Close the Applocation",
+            "match": {
+              "location": "RoleCre.user_Close_the_Applocation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Role Creation",
+    "description": "",
+    "id": "role-creation",
+    "keyword": "Feature",
+    "uri": "D:/EvngBatch/Ebanking/src/features/Role.feature"
+  }
+]
